@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial';
+    background-color: orange;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recipe {
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+a.viewRecipeBtn {
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
